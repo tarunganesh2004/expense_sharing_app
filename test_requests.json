@@ -1,0 +1,50 @@
+{
+  "run_info": {
+    "note": "This is used for testing the post apis quickly in swagger ui",
+    "users": [1, 2, 3],
+    "group_id": 1
+  },
+
+  "expense_equal_split": {
+    "paid_by": 1,
+    "users": [1, 2, 3],
+    "amount": 600,
+    "group_id": 1,
+    "split_type": "EQUAL"
+  },
+
+  "expense_exact_split": {
+    "paid_by": 1,
+    "users": [1, 2, 3],
+    "amount": 600,
+    "group_id": 1,
+    "split_type": "EXACT",
+    "splits": {
+      "2": 300,
+      "3": 300
+    }
+  },
+
+  "expense_percentage_split": {
+    "paid_by": 1,
+    "users": [1, 2, 3],
+    "amount": 1000,
+    "group_id": 1,
+    "split_type": "PERCENT",
+    "splits": {
+      "2": 40,
+      "3": 60
+    }
+  },
+
+  "simplify_balances_request": {
+    "group_id": 1
+  },
+
+  "settlement_request": {
+    "from_user": 2,
+    "to_user": 1,
+    "amount": 500,
+    "group_id": 1
+  }
+}
