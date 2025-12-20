@@ -9,9 +9,9 @@ The focus of this assignment is **engineering design, scalability, and clarity o
 
 - Add shared expenses within a group
 - Supported split types:
-  - ✅ Equal split
-  - ✅ Exact amount split
-  - ✅ Percentage split
+  -  Equal split
+  -  Exact amount split
+  -  Percentage split
 - Track balances:
   - Who owes whom
   - How much each user owes
@@ -33,10 +33,10 @@ Each transaction records:
 
 This design ensures:
 
-- ✅ Financial correctness
-- ✅ Auditability
-- ✅ Easy settlement handling
-- ✅ Scalability as transactions grow
+-  Financial correctness
+-  Auditability
+-  Easy settlement handling
+-  Scalability as transactions grow
 
 No historical data is ever modified or deleted.  
 All changes (including settlements) are recorded as new ledger entries.
