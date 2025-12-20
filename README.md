@@ -190,4 +190,4 @@ This is closer to how real financial systems are designed.
 - Performance optimizations for large groups
 
 ## Conclusion
-This project demonstrates a scalable, clean, and well-thought-out backend design for expense sharing, focusing on correctness, extensibility, and clarity — exactly what a production-rea![alt text](image.png)dy system requires.
+This project demonstrates a scalable, clean, and well-thought-out backend design for expense sharing, focusing on correctness, extensibility, and clarity — exactly what a production-ready system requires.
